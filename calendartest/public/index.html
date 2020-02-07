@@ -33,8 +33,15 @@
 <script type="text/javascript" charset="utf-8">
 
     function init() {
+	
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
 
-        scheduler.init('scheduler_here',new Date(2018,8,4),"month");
+today = mm + '/' + dd + '/' + yyyy;
+	scheduler.init('scheduler_here',today,"month");
+//        scheduler.init('scheduler_here',new Date(2018,8,4),"month");
 
     }
 
