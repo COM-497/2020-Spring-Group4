@@ -6,6 +6,6 @@ http.createServer(function (req, res) {
 
   res.writeHead(200, {'Content-Type': 'text/html'});
 
-  res.end('Hello World!');
+  res.end('Hello World, Max Smells!');
 
 }).listen(8080);
