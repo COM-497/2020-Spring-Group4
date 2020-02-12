@@ -62,3 +62,41 @@ app.get('/data', function(req, res){
         res.send(data);
     });
 });
+
+
+app.post('/data', function(req, res){
+    var data = req.body;
+
+    //get operation type
+    var mode = data["!nativeeditor_status"];
+    //get id of record
+    var sid = data.id;
+    var tid = sid;
+
+    //remove properties which we do not want to save in DB
+    delete data.id;
+    delete data["!nativeeditor_status"];
+
+
+    //output confirmation response
+    function update_response(err, result){
+        if (err)
+            mode = "error";
+        else if (mode == "inserted")
+            tid = data._id;
+
+        res.setHeader("Content-Type","application/json");
+        res.send({action: mode, sid: sid, tid: tid});
+
+    }
+
+    //run db operation
+    if (mode == "updated")
+        db.event.updateById( sid, data, update_response);
+    else if (mode == "inserted")
+        db.event.insert(data, update_response);
+    else if (mode == "deleted")
+        db.event.removeById( sid, update_response);
+    else
+        res.send("Not supported operation");
+});
