@@ -1,0 +1,22 @@
+{
+  "name": "raaanodejs",
+  "version": "1.0.0",
+  "description": "The Resident Assistant Accessibility Application (RAAA) is a project that is being created for the Computer Science Capstone course at Saint Leo University. This project is being developed by Jared DeWinne, Maxwell Kizewski and Ryan Roper. Oversight provided by Dr. Van Nguyen, Associate Professor of Computer Science at Saint Leo University.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COM-497/com-497-2020sp-g4.git"
+  },
+  "author": "Maxwell Kizewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COM-497/com-497-2020sp-g4/issues"
+  },
+  "homepage": "https://github.com/COM-497/com-497-2020sp-g4#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
