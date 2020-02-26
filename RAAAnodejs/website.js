@@ -4,6 +4,10 @@ var app = express();
 var router = express.Router();
   
 var path = __dirname + '/views/visualize/assets/js/';
+
+<link rel="stylesheet" type="text/css" href="css/main.js" />
+
+
   
 app.use('/',router);
   
