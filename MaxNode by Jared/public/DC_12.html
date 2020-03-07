@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RAAA - Duty Shift Exchange</title>
+    <title>RAAA - Duty Check-In</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
@@ -13,6 +13,11 @@
 		  #brand-image
 		  {
 			  	height: 50px;
+		  }
+		  #menu1
+		  {
+			  background-color: #004900;
+			  font-color: #fff;
 		  }
 		  #brand-image2
 		  {
@@ -36,7 +41,7 @@
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-                <a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item">
                 <a class="nav-link text-white" href="DutyCheck.html">Duty Check-In</a>
@@ -62,11 +67,34 @@
 
     <div class="jumbotron jumbotron-fluid text-center">
 		<h1 class="display-4"></h1>
-        <h1 class="display-4">Duty Shift Exchange&nbsp;</h1>
-<p class="lead">Easily swap duties with other Resident Assistants to ensure you recieve coverage!&nbsp;</p>
+        <h1 class="display-4">Duty Check-In&nbsp;</h1>
+<p class="lead">Utilize the automatic check-in feature to sign in for duty! Simply select your duty area and follow the instructions on the screen!&nbsp;</p>
     <div class="container"> <br>
-       <hr>
-       <br>
+		<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select Your Duty Area
+  </button>
+  	 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    	<a class="dropdown-item" href="DC_12.html">Apartments 1 + 2</a>
+    	<a class="dropdown-item" href="DC_34.html">Apartments 3 + 4</a>
+    	<a class="dropdown-item" href="DC_56.html">Apartments 5 + 6</a>
+		<a class="dropdown-item" href="DC_RA.html">Roderick and Alumni</a>
+    	<a class="dropdown-item" href="DC_HB.html">Henderson and Benoit</a>
+    	<a class="dropdown-item" href="DC_MS.html">Marmion and Snyder</a>
+		<a class="dropdown-item" href="DC_SA.html">Sweetwater Apartments</a>
+	 <div class="dropdown">
+  </div>
+</div>
+<br><br>
+		
+		<h6>You are about to check in for duty at:</h6>
+		<h2 class= "text-success">Apartments 1 + 2</h2>
+		<h6>Please ensure that this is the proper selection. Then, select "Confirm Check-In" to submit your duty check-in!</h6><br>
+		<a href="#" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Confirm Check-In</a>
+<br><br><br><br><br><br>			
+</div>
+		<hr>
+		<br>
 		
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-3.4.1.min.js"></script>
