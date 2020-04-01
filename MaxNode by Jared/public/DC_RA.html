@@ -10,9 +10,23 @@
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 
 	  <style>
+		  input[type=submit]{
+  			display: inline-block;
+  			font-weight: 400;
+ 			color: #fff;
+  			background-color: #004900;
+ 			text-align: center;
+  			vertical-align: middle;
+  			cursor: pointer;
+  			padding: 0.375rem 0.75rem;
+  			font-size: 1rem;
+  			line-height: 1.5;
+  			border-radius: 0.25rem;
+ 			transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		  }
 		  #brand-image
 		  {
-			  	height: 50px;
+			  	height: 30px;
 		  }
 		  #menu1
 		  {
@@ -68,8 +82,9 @@
     <div class="jumbotron jumbotron-fluid text-center">
 		<h1 class="display-4"></h1>
         <h1 class="display-4">Duty Check-In&nbsp;</h1>
-<p class="lead">Utilize the automatic check-in feature to sign in for duty! Simply select your duty area and follow the instructions on the screen!&nbsp;</p>
-    <div class="container"> <br>
+    <div class="container"> 
+		<p class="lead">Utilize the automatic check-in feature to sign in for duty! Simply select your duty area and follow the instructions on the screen!&nbsp;</p>
+		<hr><br>
 		<div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Select Your Duty Area
@@ -89,11 +104,39 @@
 		
 		<h6>You are about to check in for duty at:</h6>
 		<h2 class= "text-success">Roderick and Alumni</h2>
-		<h6>Please ensure that this is the proper selection. Then, select "Confirm Check-In" to submit your duty check-in!</h6><br>
-		<a href="#" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Confirm Check-In</a>
-<br><br><br><br><br><br>			
+		<h6>Please ensure that this is the proper selection. Then, select "Confirm Check-In" to submit your duty check-in!</h6>
+		
+		<!-- FORM FORMATTING AT UI -->
+			
+		<form>
+			<input type="text" id="location" placeholder="Location" value="Roderick and Alumni" style="display: none" readonly> <br>
+			<input type="submit" value="Confirm Check-In">
+		</form>
+			
+		<!-- END FORM FORMATTING AT UI -->
+			
+		<!-- SCRIPTS FOR EMAIL DEPLOYMENT --> 
+    	<script src="js/jquery-3.4.1.min.js"></script>
+		
+		<script>
+			$('form').on('submit', (e) => { 
+				e.preventDefault(); 
+				
+				const location = $('#location').val().trim();
+				
+				const data = { location };
+				
+				$.post('/location', data, function(){ }); 
+				window.location.href = "DC_RAConfirm.html"; // MAY BE PROBLEMATIC IF EMAIL DOES NOT ACTUALLY SEND... GIVES FALSE POSITIVE!!
+			});
+			
+		</script>
+		<!-- END SCRIPTS FOR EMAIL DEPLOYMENT -->
+			
+			
+		
+		<br><br><br><br><br><br><br>	
 </div>
-		<hr>
 		<br>
 		
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 

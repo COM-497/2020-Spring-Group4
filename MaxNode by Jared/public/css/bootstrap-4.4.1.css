@@ -90,7 +90,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #ECFFEA;
+  background-color: #F9FFF9;
   --background-image: url("../images/sl_logo-2.png");
   --background-repeat: no-repeat;
   --background-attachment: scroll;
@@ -423,6 +423,8 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .display-1 {
@@ -444,6 +446,12 @@ h6, .h6 {
 }
 
 .display-4 {
+  font-size: 2.75;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-5 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -453,7 +461,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 small,
@@ -10269,4 +10277,4 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+# sourceMappingURL=bootstrap.css.map
