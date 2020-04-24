@@ -1,0 +1,517 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Blank WordPress Pot "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2019-12-16 12:40+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.2.4\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "404 ERROR"
+msgstr ""
+
+#: 404.php:20
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:28
+msgid ""
+"This is not the page "
+"your are looking for. "
+"Reach out with your "
+"feelings and try "
+"refining your search or "
+"return to base."
+msgstr ""
+
+#: 404.php:29
+msgid "Back To Homepage"
+msgstr ""
+
+#: comments.php:37
+#, php-format
+msgid ""
+"One thought on &ldquo;"
+"%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: footer.php:42
+msgid "Y"
+msgstr ""
+
+#: footer.php:42
+msgid ""
+". Powered by WordPress"
+msgstr ""
+
+#: functions.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:85
+msgctxt ""
+"Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:93
+msgctxt ""
+"Poppins Condensed font: "
+"on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:101
+msgctxt ""
+"Add new subset (greek, "
+"cyrillic, devanagari, "
+"vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:49
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:72
+msgid "Add a menu"
+msgstr ""
+
+#: home-templates/section-front-page.php:46
+#: inc/customizer.php:254
+msgid "About Us"
+msgstr ""
+
+#: home-templates/section-front-page.php:85
+#: home-templates/section-front-page.php:217
+#: inc/customizer.php:183
+#: template-parts/content-search.php:28
+#: template-parts/content.php:31
+msgid "View More"
+msgstr ""
+
+#: home-templates/section-front-page.php:104
+msgid "mapro service title"
+msgstr ""
+
+#: home-templates/section-front-page.php:105
+#: inc/customizer.php:344
+msgid ""
+"Lorem Ipsum has been the "
+"industry standard dummy "
+"text ever since the 1500s"
+msgstr ""
+
+#: home-templates/section-front-page.php:177
+msgid "Blog Posts"
+msgstr ""
+
+#: home-templates/section-front-page.php:186
+msgid ""
+"when an unknown printer "
+"took a galley of type"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:264
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:265
+msgctxt ""
+"breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:266
+#: index.php:17
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:268
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:269
+#, php-format
+msgid ""
+"Search results for: %s"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:270
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:271
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:272
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:273
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:733
+msgctxt ""
+"minute and hour archives "
+"time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:750
+msgctxt ""
+"minute archives time "
+"format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:767
+msgctxt ""
+"hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:783
+#: inc/breadcrumbs-trail.php:812
+#: inc/breadcrumbs-trail.php:839
+#: inc/breadcrumbs-trail.php:866
+#: inc/breadcrumbs-trail.php:1206
+msgctxt ""
+"yearly archives date "
+"format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:784
+#: inc/breadcrumbs-trail.php:840
+#: inc/breadcrumbs-trail.php:1210
+msgctxt ""
+"monthly archives date "
+"format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:785
+#: inc/breadcrumbs-trail.php:1214
+msgctxt ""
+"daily archives date "
+"format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs-trail.php:813
+msgctxt ""
+"weekly archives date "
+"format"
+msgid "W"
+msgstr ""
+
+#: inc/breadcrumbs.php:16
+msgid "Search Results For "
+msgstr ""
+
+#: inc/breadcrumbs.php:19
+msgid "Nothing Found "
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Template Color"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:43
+msgid ""
+"Site Title & Tagline"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Header Logo"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer.php:75
+msgid ""
+"Disable Sticky Header"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Page Header Banner"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid ""
+"This banner will show in "
+"the header of all the "
+"inner pages <br/"
+">Recommended Image Size: "
+"1800X400px"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Home Page Sections"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid ""
+"Enable Slider Section "
+msgstr ""
+
+#: inc/customizer.php:174
+#: inc/customizer.php:284
+#: inc/customizer.php:396
+msgid "Select a Page"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Slider Button Text"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "About Us Section"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid ""
+"Enable About Section "
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "About Page "
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "About Us Title"
+msgstr ""
+
+#: inc/customizer.php:298
+msgid "Services Section"
+msgstr ""
+
+#: inc/customizer.php:316
+msgid ""
+"Enable Services Section "
+msgstr ""
+
+#: inc/customizer.php:325
+msgid "Our Services"
+msgstr ""
+
+#: inc/customizer.php:336
+msgid "Services Title"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Services SubTitle"
+msgstr ""
+
+#: inc/customizer.php:377
+msgid "Service Page "
+msgstr ""
+
+#: inc/customizer.php:415
+msgid ""
+"Select a Flaticon from "
+"list"
+msgstr ""
+
+#: inc/customizer.php:427
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:441
+msgid "Blog Category"
+msgstr ""
+
+#: inc/mapro-functions.php:57
+msgid "Select Category"
+msgstr ""
+
+#: inc/mapro-functions.php:95
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/mapro-functions.php:106
+msgid "Footer Widget 1"
+msgstr ""
+
+#: inc/mapro-functions.php:116
+msgid "Footer Widget 2"
+msgstr ""
+
+#: inc/mapro-functions.php:126
+msgid "Footer Widget 3"
+msgstr ""
+
+#: inc/mapro-functions.php:136
+msgid "Footer Widget 4"
+msgstr ""
+
+#: inc/mapro-functions.php:166
+#: inc/template-tags.php:84
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:91
+msgctxt ""
+"list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:94
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:104
+#, php-format
+msgid ""
+"Leave a Comment<span "
+"class=\"screen-reader-"
+"text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:121
+#, php-format
+msgid ""
+"Edit <span class="
+"\"screen-reader-text\">"
+"%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your "
+"first post? <a href="
+"\"%1$s\">Get started "
+"here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"terms. Please try again "
+"with some different "
+"keywords."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t "
+"find what you&rsquo;re "
+"looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18
+#: template-parts/content-single.php:28
+#, php-format
+msgid ""
+"Continue reading<span "
+"class=\"screen-reader-"
+"text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-page.php:30
+#: template-parts/content-single.php:40
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:50
+msgid "Tags"
+msgstr ""
