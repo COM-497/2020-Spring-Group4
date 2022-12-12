@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/COM-497/com-497-2020sp-g4#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
